@@ -1,0 +1,49 @@
+
+<!---------------------------------Fancygalery--------------------------->
+	
+
+
+<script type="text/javascript">
+	$(document).ready(function() {
+
+		$("a[rel=example_group]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+
+		
+	});
+</script>
+
+<!---------------------------------Fancygalery--------------------------->
+
+<articule class="mid">
+
+<h2><FONT COLOR="#ff9955">Aplagas</FONT></h2>
+
+		<img src="images/graf/trabajo1/intro.JPG" alt="" />
+		
+		<h3>Abstract</h3>
+		
+		<p>Cliente: UDP | 30 Días de diseño <br><br>
+ Trabajo realizado durante el segundo semestre del año 2010, periodo universitario. El trabajo fue postulado para un concurso del gobierno de Chile con el fin de apoyar a los damnificados del terremoto de Concepción.<br>
+
+El producto se basa en un kit para control de plagas, para mejorar las condiciones de salud en las mediaguas de emergencia levantadas por el gobierno.
+		<p>
+		fotografías:<br>
+		</p>
+		
+		
+		
+		<a rel="example_group" href="images/graf/trabajo1/1_b.JPG" title="Visualización"><img class="left"alt="" src="images/graf/trabajo1/1_s.JPG" /></a>
+		<a rel="example_group" href="images/graf/trabajo1/2_b.JPG" title="Visualización"><img class="left"alt="" src="images/graf/trabajo1/2_s.JPG" /></a>
+		<a rel="example_group" href="images/graf/trabajo1/3_b.JPG" title="Visualización"><img class="left" alt="" src="images/graf/trabajo1/3_s.JPG" /></a>
+		<a rel="example_group" href="images/graf/trabajo1/4_b.JPG" title="Visualización"><img class="left" alt="" src="images/graf/trabajo1/4_s.JPG" /></a>
+		
+		
+		<p><br></p>
+</articule>

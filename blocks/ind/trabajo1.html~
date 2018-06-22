@@ -1,0 +1,50 @@
+
+<!---------------------------------Fancygalery--------------------------->
+	
+
+
+<script type="text/javascript">
+	$(document).ready(function() {
+
+		$("a[rel=example_group]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+
+		
+	});
+</script>
+
+<!---------------------------------Fancygalery--------------------------->
+
+<articule class="mid">
+<link rel="stylesheet" href="styles/style.css" type="text/css" />
+
+<h2><FONT COLOR="#ff9955">Estudio de Formas</FONT></h2>
+
+		<img src="images/ind/trabajo1/intro.JPG" alt="" />
+		
+		<h3>Abstract</h3>
+		
+		<p>Cliente:UDP <br>
+ El enfoque de este proyecto se situá en el estudio y desarrollo morfológico del mismo. Donde además se utilizó como premisa desarrollar un producto dirigido para la cocina. 
+El proyecto en sí es un organizador de losa para el uso más eficiente del lavaplatos a la hora  de utilizarlo, específicamente pensado para lavaplatos pequeños.s</p>
+
+		<p>
+		fotografías:<br>
+		</p>
+		
+		<a rel="example_group" href="images/ind/trabajo1/7_b.JPG" title="Problemática"><img class="left" alt="" src="images/ind/trabajo1/7_s.JPG" /></a>
+		<a rel="example_group" href="images/ind/trabajo1/6_b.JPG" title="Solución"><img class="left"alt="" src="images/ind/trabajo1/6_s.JPG" /></a>
+		<a rel="example_group" href="images/ind/trabajo1/1_b.JPG" title="Visualización"><img class="left"alt="" src="images/ind/trabajo1/1_s.JPG" /></a>
+		<a rel="example_group" href="images/ind/trabajo1/2_b.JPG" title="Visualización"><img class="left"alt="" src="images/ind/trabajo1/2_s.JPG" /></a>
+		<a rel="example_group" href="images/ind/trabajo1/3_b.JPG" title="Visualización"><img class="left" alt="" src="images/ind/trabajo1/3_s.JPG" /></a>
+		<a rel="example_group" href="images/ind/trabajo1/4_b.JPG" title="Visualización"><img class="left" alt="" src="images/ind/trabajo1/4_s.JPG" /></a>
+		<a rel="example_group" href="images/ind/trabajo1/5_b.JPG" title="Visualización"><img class="right" alt="" src="images/ind/trabajo1/5_s.JPG" /></a>
+		
+		<p><br></p>
+</articule>

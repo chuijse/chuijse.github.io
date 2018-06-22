@@ -1,0 +1,43 @@
+
+<!---------------------------------Fancygalery--------------------------->
+	
+
+
+<script type="text/javascript">
+	$(document).ready(function() {
+
+		$("a[rel=example_group]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+
+		
+	});
+</script>
+
+<!---------------------------------Fancygalery--------------------------->
+
+<articule class="mid">
+
+<h2><FONT COLOR="#ff9955">Efecto fotoeléctrico</FONT></h2>
+
+		
+
+		<div class="videocontent720"><iframe src="http://player.vimeo.com/video/38172444?title=0&amp;byline=0&amp;portrait=0&amp;color=ff9933" width="720" height="531" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+		
+		<h3>Abstract</h3>
+		
+		<p>Cliente: UDP <br><br>
+Trabajo realizado durante el segundo semestre del año 2011, periodo universitario. <br>
+El ejercicio constó del desarrollo de una pieza audiovisual que representé a un personaje histórico, a través de alguna característica, teoría o postulado del personaje.
+
+El ejercicio constó del desarrollo de una infografía sobre un tema a nuestra elección, por esta razón se tomo júpiter como tema. La infografía se encuentra dirigida a cualquier tipo de lector por lo que no es necesario tener un conocimiento profundo sobre el tema para leerla.
+		
+		
+		
+		<p><br><br><br><br></p>
+</articule>
