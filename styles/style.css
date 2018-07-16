@@ -151,8 +151,7 @@ div.hrrel {
 		
 	position: relative;
 	width: 100%;
-	left: 0%;
-	border: 2 solid red;	
+	left: 0%;	
 
 	
 	}
@@ -176,7 +175,7 @@ div.hrrel {
 	z-index: -2;
 	margin-left: auto;
     margin-right: auto;
-	border: 1 solid red;
+	
 
 
 }
@@ -185,35 +184,6 @@ div.hrrel {
 width:100%;
 }
 
-
-/*-----------------------bottom-----------------------------*/
-
-#bottom {
-	position: fixed;
-	width: 90%;
-	height: 40px;	
-	bottom:2px;
-	left: 5%;
-	
-}
-
-div#mail {
-	float:left;
-	color: #ff9955;
-	font-size: 20px;
-	font-family: 'Ubuntu Condensed', sans-serif;
-	text-decoration: none;
-	font-weight: normal;
-	
-}
-div#location {
-	float:right;
-	color: white;
-	font-size: 20px;
-	font-family: 'Ubuntu Condensed', sans-serif;
-	text-decoration: none;
-	font-weight: normal;
-}
 
 
 
@@ -233,12 +203,12 @@ h3 {
 	font-weight: normal;
 	}
 h4 {
-	color: black;
-	font-size: 16px;
-	font-family: MotserratR;
+	color: #ff9955;
+	font-size: 18px;
+	font-family: TechMono;
 	text-decoration: none;
 	font-weight: normal;
-	text-align: center;
+	
 	}
 p {
 	color: #404040;
@@ -246,6 +216,52 @@ p {
 	font-family: MotserratR;
 	text-decoration: none;
 	font-weight: normal;
+}
+
+em {
+    color: #ff9955;
+	font-size: 16px;
+	font-style: normal;
+}
+
+strong { 
+    font-family: Motserrat-EB;
+	font-size: 18px;
+	font-style: normal;
+	color: #ff9955;
+	font-weight: normal;
+}
+
+b { 
+    font-family: MotserratB;
+	color: #404040;
+	font-size: 17px;
+	font-style: normal;
+}
+
+ins { 
+    font-family: Motserrat-EB;
+	color: #404040;
+	font-size: 17px;
+	font-style: normal;
+	text-decoration: none;
+	font-weight: normal;
+	
+}
+
+small { 
+    color: #808080;
+		
+}
+
+h6 {
+	color: #404040;
+	font-size: 16px;
+	font-family: MotserratR;
+	text-decoration: none;
+	text-align: left;
+	font-weight: normal;
+
 }
 
 
@@ -258,6 +274,18 @@ p {
 @font-face {
     font-family: MotserratR;
     src: url(fonts/Montserrat-Regular.ttf);
+    font-style: normal
+	}
+
+@font-face {
+    font-family: Motserrat-EB;
+    src: url(fonts/Montserrat-Black.ttf);
+    font-style: normal
+	}
+	
+@font-face {
+    font-family: MotserratB;
+    src: url(fonts/Montserrat-Bold.ttf);
     font-style: normal
 	}
 
