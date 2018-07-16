@@ -176,7 +176,7 @@ div.hrrel {
 	z-index: -2;
 	margin-left: auto;
     margin-right: auto;
-	height: 100%:
+	border: 1 solid red;
 
 
 }
