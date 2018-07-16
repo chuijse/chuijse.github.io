@@ -191,21 +191,21 @@ div#location {
 
 /*-----------------------fonts-----------------------------*/
 h2 { 
-	color: white; 
+	color: black; 
 	font-size: 30px;
 	font-family: 'Ubuntu Condensed', sans-serif;
 	text-decoration: none;
 	font-weight: normal; 
 	}
 h3 {
-	color: white;
+	color: black;
 	font-size: 23px;
 	font-family: 'Ubuntu Condensed', sans-serif;
 	text-decoration: none;
 	font-weight: normal;
 	}
 h4 {
-	color: white;
+	color: black;
 	font-size: 23px;
 	font-family: 'Ubuntu Condensed', sans-serif;
 	text-decoration: none;
@@ -213,7 +213,7 @@ h4 {
 	text-align: center;
 	}
 p {
-	color: white;
+	color: black;
 	font-size: 18px;
 	font-family: 'Ubuntu', sans-serif;
 	text-decoration: none;
