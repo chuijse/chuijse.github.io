@@ -5,6 +5,7 @@
 
 <article class="mid">
 	
+		<br>
 		<h2><FONT COLOR="#ff9955">Cristian Huijse Heise </FONT></h2>
 		<h3>Diseñador Industrial</h3>
 		<img src="images/yo.jpe" alt="" />

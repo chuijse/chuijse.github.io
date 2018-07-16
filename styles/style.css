@@ -22,6 +22,7 @@ body {
 	background: #ffffff;
 	color: #ffffff;	
 	margin: 0px;
+	height: 100%;
 
 	}
 
@@ -133,14 +134,15 @@ div.hrrel {
 #center{
 		
 	position: fixed;
-	width: 100%;
-	left: 0%;
+	left: 10%;
+	width: 80%;
 	bottom:45px;
-	top: 90px;
+	top: 65px;
 	overflow: auto;
-	
-	
 	z-index: -1;
+	height: 100%;
+	box-shadow: 0px 1px 7px #afafaf;
+	
 	
 	
 	}
@@ -150,7 +152,8 @@ div.hrrel {
 	position: relative;
 	width: 100%;
 	left: 0%;
-	/*border: 2 solid green;*/	
+		
+
 	
 	}
 
@@ -167,14 +170,17 @@ div.hrrel {
 	
 }
 
-#centercontent, #centercontentind{
+#centercontent {
 	
 	width:100%;
-	
-	border-top-style: 2 solid black;
 	z-index: -2;
+	height: 100%:
 
 
+}
+
+#centercontentind{
+width:100%;
 }
 
 
@@ -226,16 +232,16 @@ h3 {
 	}
 h4 {
 	color: black;
-	font-size: 23px;
-	font-family: 'Ubuntu Condensed', sans-serif;
+	font-size: 16px;
+	font-family: MotserratR;
 	text-decoration: none;
 	font-weight: normal;
 	text-align: center;
 	}
 p {
-	color: black;
-	font-size: 18px;
-	font-family: 'Ubuntu', sans-serif;
+	color: #404040;
+	font-size: 16px;
+	font-family: MotserratR;
 	text-decoration: none;
 	font-weight: normal;
 }
@@ -244,6 +250,12 @@ p {
 @font-face {
     font-family: TechMono;
     src: url(fonts/ShareTechMono-Regular.ttf);
+    font-style: normal
+	}
+	
+@font-face {
+    font-family: MotserratR;
+    src: url(fonts/Montserrat-Regular.ttf);
     font-style: normal
 	}
 
