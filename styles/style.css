@@ -28,19 +28,24 @@ body {
 /*-----------------------------formas---------------------------*/
 
 div.hr { 
-	top: 105px;
-	position:absolute;
-	border:1px solid white; 
-	color:#000000; 
+	top: 0px;
+	position:absolute; 
+	background: #ffffff; 
 	width: 100%; 
+	height: 80px;
+	border-bottom: 0 solid #505050;
+	z-index: 1;
+	box-shadow: 0px 1px 7px #afafaf;
+
+	
 	}
 
 div.hrrel { 
 	position:relative;
-	border:1px solid white; 
-	color:#ffffff; 
-	width: 100%; 
+	color:black; 
+	width: #808080; 
 	margin-bottom:5px;
+	border: 2 solid red;
 	}
 
 
@@ -51,15 +56,15 @@ div.hrrel {
 
 #top {
 	position: fixed;
-	width: 90%;
+	width: 100%;
 	height: auto;	
-	left: 5%;
+	left: 0%;
 	
 	}
 
 #top object{
 	position: relative;
-	width: 130px;
+	width: 50px;
 	height: 100px;
 		
 	}
@@ -70,9 +75,11 @@ div.hrrel {
 #top nav {
 	
 	position: absolute;
-	top: 120px;
-	right:0%;
-	font-size: 23px;
+	top: 30px;
+	right:20%;
+	font-size: 20px;
+	z-index: 2;
+	
 	
 	
 	
@@ -89,20 +96,22 @@ div.hrrel {
 
 #top nav li {
 	
-	color: #000000;
+	color: #afafaf;
 	display: inline;
 	margin:0;
 	font-family: 'Ubuntu Condensed', sans-serif;
 	
+	
 	}
 
 .clickable {
-	color: #FFFFFF;
+	color: #505050;
 	cursor:pointer;
 }
 
 .clickable.selected {
-	color: #ff9955; 
+	color: #ff9955;
+	font-weight: bold;
 }
 
 .clickable:hover {
@@ -122,9 +131,12 @@ div.hrrel {
 	width: 100%;
 	left: 0%;
 	bottom:45px;
-	top: 160px;
+	top: 80px;
 	overflow: auto;
-	border: 2 solid red;
+	
+	
+	z-index: -1;
+	
 	
 	}
 
@@ -133,7 +145,7 @@ div.hrrel {
 	position: relative;
 	width: 100%;
 	left: 0%;
-	border: 2 solid green;	
+	/*border: 2 solid green;*/	
 	
 	}
 
@@ -153,7 +165,10 @@ div.hrrel {
 #centercontent, #centercontentind{
 	
 	width:100%;
-	border: 2 solid blue;
+	
+	border-top-style: 2 solid black;
+	z-index: -2;
+
 
 }
 
@@ -225,13 +240,13 @@ p {
 
 .triangle {
 	position:absolute;
-	top:0px;
+	top:65px;
 	left:10px;
 	width: 0;
 	height: 0;
 	border-left: 10px solid transparent;
 	border-right: 10px solid transparent;
-	border-top: 10px solid white;
+	border-bottom: 15px solid #afafaf;
 	opacity: 0;
 	filter: alpha(opacity=0);
 	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)";
@@ -240,6 +255,8 @@ p {
 	-o-transition:all .5s ease-in-out;
 	-ms-transition:all .5s ease-in-out;
 	transition:all .5s ease-in-out;
+	z-index: 1;
+	
 	
 }
 
@@ -262,7 +279,7 @@ p {
 	
 	}
 
-.centered {
+.cente {
 	text-align: center;
 	width:200px;
 	margin-left: auto;
@@ -287,6 +304,7 @@ p {
 #Coop {
 	position: relative;
 	width: 800px;
+	
 	 }
 
 #Coop td{
@@ -314,19 +332,24 @@ p {
 #ind td img {
 	
 	vertical-align: center;
-	border: 1.5px solid white;
 	cursor:pointer;
+	z-index: -3;
+	/*box-shadow: 0px 0px 10px #808080;*/
+	border: 3 solid white;
 	}
 
 #ind td img:hover {
 	
-	border: 1.5px solid #ff9955;
+	border: 3 solid #ff9955;
+	/*box-shadow: 0px 0px 10px #afafaf;*/
 	
 	}
 
 #ind td img.selected {
 	
-	border: 1.5px solid #ff9955;	
+	border: 3 solid #ff9955;
+	/*box-shadow: 0px 0px 10px #afafaf; #ff9955*/
+	z-index: -3;	
 	}
 
 /*div#ind {
@@ -344,6 +367,7 @@ a img {
 	vertical-align: top;
 	margin-top: 10px;
 	margin-left:0px;
+	z-index: -3;
 }
 
 a img:hover {
