@@ -83,7 +83,7 @@ div.hrrel {
 	position: absolute;
 	top: 30px;
 	right:5%;
-	font-size: 21px;
+	font-size: 24px;
 	z-index: 2;
 	
 	
@@ -204,7 +204,7 @@ h3 {
 	}
 h4 {
 	color: #ff9955;
-	font-size: 18px;
+	font-size: 20px;
 	font-family: TechMono;
 	text-decoration: none;
 	font-weight: normal;
@@ -212,7 +212,7 @@ h4 {
 	}
 p {
 	color: #404040;
-	font-size: 16px;
+	font-size: 18px;
 	font-family: MotserratR;
 	text-decoration: none;
 	font-weight: normal;
@@ -220,13 +220,13 @@ p {
 
 em {
     color: #ff9955;
-	font-size: 16px;
+	font-size: 18px;
 	font-style: normal;
 }
 
 strong { 
     font-family: Motserrat-EB;
-	font-size: 18px;
+	font-size: 21px;
 	font-style: normal;
 	color: #ff9955;
 	font-weight: normal;
@@ -235,14 +235,14 @@ strong {
 b { 
     font-family: MotserratB;
 	color: #404040;
-	font-size: 17px;
+	font-size:19px;
 	font-style: normal;
 }
 
 ins { 
     font-family: Motserrat-EB;
 	color: #404040;
-	font-size: 17px;
+	font-size: 20px;
 	font-style: normal;
 	text-decoration: none;
 	font-weight: normal;
