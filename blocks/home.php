@@ -69,7 +69,7 @@ th{
 				</tr>
 			</th>
 		</table>
-		<br><br><br>		
+		<br><br><br><br><br>		
 	
 	 
 </article>
