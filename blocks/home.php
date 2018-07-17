@@ -68,7 +68,8 @@ th{
 				</p>
 				</tr>
 			</th>
-		</table>		
+		</table>
+		<br><br><br>		
 	
 	 
 </article>
