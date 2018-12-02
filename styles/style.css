@@ -84,11 +84,11 @@ div.hrrel {
 	position: relative;
 	top: 30px;
 	font-size: 26px;
-	width: 525px;
+	width: 560px;
 	z-index: 2;
 	margin-left: auto;
 	margin-right: auto;
-	border: 1 solid green;
+	
 	
 }
 
@@ -128,8 +128,71 @@ div.hrrel {
 	 
 	}
 
+/*-----------------------Sub Category Navegation-----------------------------*/
+
+nav {
+	
+	position: relative;
+	top: 15px;
+	font-size: 21px;
+	width: auto;
+	z-index: 2;
+	padding: auto;
+	
+	
+}
+
+nav ul {
+	
+	list-style: none; 
+	margin: auto; 
+	padding-left: 0px;
+	
+	
+	 }
+
+nav li {
+	
+	color: #afafaf;
+	display: inline;
+	margin: auto;
+	padding: auto;
+	left: auto;
+	right: auto;
+	font-family: TechMono;
+	
+	
+	
+	}
+
+.clickable {
+	color: #505050;
+	cursor:pointer;
+}
+
+.clickable.selected {
+	color: #ff9955;
+	
+}
+
+.clickable:hover {
+	color: #ff9955; 
+}	
 
 
+.clickableind {
+	color: #505050;
+	cursor:pointer;
+}
+
+.clickableind.selected {
+	color: #ff9955;
+	
+}
+
+.clickableind:hover {
+	color: #ff9955; 
+}
 /*----------------------Centro-----------------------------*/
 
 
@@ -146,15 +209,17 @@ div.hrrel {
 	box-shadow: 0px 1px 7px #afafaf;
 	
 	
-	
 	}
 
 #centerind{
 		
 	position: relative;
+	left: 0px;
 	width: 100%;
-	left: 0%;	
-
+	height: 100%;
+	overflow: auto;	
+	
+	
 	
 	}
 
@@ -177,6 +242,7 @@ div.hrrel {
 	z-index: -2;
 	margin-left: auto;
     margin-right: auto;
+	
 	
 
 
@@ -484,4 +550,19 @@ box-shadow: 0px 1px 7px #afafaf;
 	margin-right: auto;
 	
 	}
+
+
+/*----------------------------nav tables------------------------------------*/
+
+table#01{
+	
+	margin: auto;
+	padding: auto;
+	
+}
+
+table#01 th{
+    padding: 5px;
+
+}
 	

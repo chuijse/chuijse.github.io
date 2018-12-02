@@ -3,7 +3,7 @@ $(document).ready(function() {
 
 	
 	
-	$("#centercontentind").load("blocks/ind/trabajo0.html",' ', function(responde, status, xhr) { /*Loadea la pagina page.php y ejecuta el callback*/
+	$("#centercontentind").load("blocks/work/empty.html",' ', function(responde, status, xhr) { /*Loadea la pagina page.php y ejecuta el callback*/
 		if (status == 'error') { /*Esto es el callback, sirve para dar un mensaje si hubo un error*/
 		    var msg = "Lo lamento, hubo un error: ";
 		    $("#centercontentind").html(msg + xhr.status + " " + xhr.statusText);
@@ -30,7 +30,7 @@ $(document).ready(function() {
 		
 			$("#centercontentind").fadeOut('normal', function() { /* El div center se manda un fade out lento*/
 				$("#centercontentind").html(""); /* El contenido html del div center se hace nulo*/
-				$("#centercontentind").load("blocks/ind/"+page+".html"," ", function(responde, status, xhr) { /*Loadea la pagina page.php y ejecuta el callback*/				
+				$("#centercontentind").load("blocks/work/"+page+".html"," ", function(responde, status, xhr) { /*Loadea la pagina page.php y ejecuta el callback*/				
 					
 					
 					if (status == 'error') { /*Esto es el callback, sirve para dar un mensaje si hubo un error*/
@@ -40,7 +40,7 @@ $(document).ready(function() {
 											
 	
 				}).delay(500).fadeIn('normal', function() {
-					$("#center").animate({scrollTop:350}, "slow");
+					$("#center").animate({scrollTop:200}, "slow");
 					$('#load').fadeOut('normal');
 					
 				});
