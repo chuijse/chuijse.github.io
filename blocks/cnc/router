@@ -1,0 +1,128 @@
+<!---------------------------------Fancygalery--------------------------->
+	
+
+<link rel="stylesheet" href="styles/style.css" type="text/css" />
+<script type="text/javascript">
+	$(document).ready(function() {
+
+		$("a[rel=example_group]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+
+		
+	});
+</script>
+
+
+<!----------------------------------------------------Css-------------------------------------------------------------->
+
+<style>
+
+table.block {
+  padding: 20px;
+    
+}
+
+.block th{
+    
+	padding-right: 18px;
+	padding-left: 15px;
+}
+    
+.block #first{
+	border-right:3px dotted #808080;
+}	
+
+</style>
+
+<!----------------------------------------------------TallerestDigital-------------------------------------------------------------->
+
+
+<!--------------------------------------------------Kossel---------------------------------------------------------------->
+
+		<img src="images/cnc/kossel/intro.JPG" alt="" width="800" />
+		
+			<table class="block">
+			<tr>
+				<th id="first" ALIGN=right VALIGN=top width="30%">
+					<p> 
+						<img src="images/cnc/kossel/intro2.JPG" alt="" >
+						
+						</p>
+				</th>
+				<th ALIGN=left VALIGN=top>
+					
+					<h4 ALIGN=left>MINI KOSSEL</h4>
+					<p> 
+					<small>Fecha</small><br>
+					2017<br>
+					
+					<br><small>Objetivo</small><br>
+					Impresora disenada para imprimir piezas pequenas, puede utilizar un nozzel de 0,1mm. Tambien puede imprimir a alta velocidad.<br>
+					
+					<br><small>Hardware</small><br>
+					0.9 nema17<br>
+					Duet3d<br>
+					Piezo Precision<br>
+					Titan extruder<br>
+					</p>
+					</p>
+				</th>
+			</tr>
+		</table>
+		
+		<table class="block" align="center">
+		<ul>
+			<tr>
+				<th>
+					<video  width="216"  controls loop controls autoplay>
+					<source src="images/cnc/kossel/movie/1.mp4" type="video/mp4">
+					<source src="movie.ogg" type="video/ogg">
+					Your browser does not support the video tag.
+					</video>
+				</th> 
+				
+				<th>
+					<video  width="216"  controls loop controls autoplay>
+					<source src="images/cnc/kossel/movie/2.mp4" type="video/mp4">
+					<source src="movie.ogg" type="video/ogg">
+					Your browser does not support the video tag.
+					</video>
+				</th>
+				
+				<th>
+					<video  width="216"  controls loop controls autoplay>
+					<source src="images/cnc/kossel/movie/3.mp4" type="video/mp4">
+					<source src="movie.ogg" type="video/ogg">
+					Your browser does not support the video tag.
+					</video>
+				</th>
+			</tr> 
+		</ul>
+	
+	</table>
+		
+		<div align="center">
+			<a rel="example_group" href="images/cnc/kossel/1.JPG" title="CNC kossel"><img class="left"alt="" src="images/cnc/kossel/s/1.JPG" width="100" height="100"/></a>
+			<a rel="example_group" href="images/cnc/kossel/2.jpeg" title="CNC kossel"><img class="left"alt="" src="images/cnc/kossel/s/2.jpeg" width="100" height="100"/></a>
+			<a rel="example_group" href="images/cnc/kossel/3.JPG" title="CNC kossel"><img class="left"alt="" src="images/cnc/kossel/s/3.JPG" width="100" height="100"/></a>
+			<a rel="example_group" href="images/cnc/kossel/4.JPG" title="CNC kossel"><img class="left"alt="" src="images/cnc/kossel/s/4.JPG" width="100" height="100"/></a>
+			<a rel="example_group" href="images/cnc/kossel/5.JPG" title="CNC kossel"><img class="left"alt="" src="images/cnc/kossel/s/5.JPG" width="100" height="100"/></a>
+			<a rel="example_group" href="images/cnc/kossel/6.JPG" title="CNC kossel"><img class="left"alt="" src="images/cnc/kossel/s/6.JPG" width="100" height="100"/></a>
+			<a rel="example_group" href="images/cnc/kossel/7.JPG" title="CNC kossel"><img class="left"alt="" src="images/cnc/kossel/s/7.JPG" width="100" height="100"/></a>
+			<a rel="example_group" href="images/cnc/kossel/8.JPG" title="CNC kossel"><img class="left"alt="" src="images/cnc/kossel/s/8.JPG" width="100" height="100"/></a>
+			<a rel="example_group" href="images/cnc/kossel/9.JPG" title="CNC kossel"><img class="left"alt="" src="images/cnc/kossel/s/9.JPG" width="100" height="100"/></a>
+			<a rel="example_group" href="images/cnc/kossel/10.JPG" title="CNC kossel"><img class="left"alt="" src="images/cnc/kossel/s/10.JPG" width="100" height="100"/></a>
+			
+			
+			
+		</div>
+		
+		
+		<br><br><br><br><img src="images/separador.png" alt="" align="ceneter"/><br><br><br><br><br><br>	
+		
