@@ -16,22 +16,22 @@ $(document).ready(function() {
 		
 		if( !$(this).hasClass("selected") ){ /* Se ejecuta la accion si y solo si this NO tiene la clase selected*/
 			
-				var width = $(this).css("width");
+			var width = $(this).css("width");
 			var widthInt= 0.5*parseInt(width.replace("px",""));
 			var posx = $(this).offset().left;
 			var posxInt= parseInt(posx);
-			var pos = posxInt + widthInt -37.5;
+			var pos = posxInt + widthInt - 37.5;
 			$(".circle").offset({left: pos});
 			//$(".triangle").animate({left: pos},500);
 			
 			
-			/*var height = $(this).css("heigth");
-			var heightInt= 0.5*parseInt(width.replace("px",""));
+			var height = $(this).css("heigth");
+			var heightInt= 0.5*parseInt(height.replace("px",""));
 			var posy = $(this).offset().top;
 			var posyInt= parseInt(posy);
-			var positiony = posyInt +heightInt -37.5;
-			$(".cicle").offset({top: positiony});
-			//$(".triangle").animate({left: pos},500);*/
+			var positiony = posyInt + (heightInt - 10) ;
+			$(".circle").offset({top: positiony});
+			//$(".triangle").animate({left: pos},500);
 		
 			
 			

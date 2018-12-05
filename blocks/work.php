@@ -6,7 +6,7 @@
 table.work {
 	
 	margin: auto;
-	padding: auto;
+	padding: 5px;
 	
 }
 table.work th{
