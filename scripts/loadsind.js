@@ -25,7 +25,7 @@ $(document).ready(function() {
 			var posyInt= parseInt(posy);
 			//alert(posyInt);
 			//var pos = posxInt  ;
-			$(".circle").offset({left: posxInt -1, top: posyInt - 75 + 10 });
+			$(".circle").offset({left: posxInt -1, top: posyInt - 75 + 10 +2});
 			//$(".triangle").animate({left: pos},500);
 			
 			function getPos(el) {
