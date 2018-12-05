@@ -32,7 +32,7 @@ table.work th{
 			<nav>
 				<ul>
 					<tr>
-					<th><li ><div id="kaki"><span class="clickableind" id="piel_urbana"><img src="images/work/nav/work1.png"></span></div></li></th> 
+					<th><li ><span class="clickableind" id="piel_urbana"><img src="images/work/nav/work1.png"></span></li></th> 
 				
 					<th><li ><span class="clickableind" id="nahual"><img src="images/work/nav/work2.png"></span></li></th>
 				
