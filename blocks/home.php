@@ -39,7 +39,7 @@ th{
 						<p> 
 						<small>Nombre:</small><br> 
 						Cristian Javier Huijse Heise<br>
-						<br><small>Fecha de nacimiento:</small><br> 
+						<br><small>Profesión:</small><br> 
 						Diseñador Industrial<br>
 						<br><small>Fecha de nacimiento:</small><br> 
 						5 de Noviembre de 1987<br> 
