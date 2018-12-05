@@ -16,7 +16,7 @@ $(document).ready(function() {
 		
 		if( !$(this).hasClass("selected") ){ /* Se ejecuta la accion si y solo si this NO tiene la clase selected*/
 
-			
+		
 			
 			
 			$(this).toggleClass("selected"); /*Se le da la clase selected */
@@ -49,6 +49,7 @@ $(document).ready(function() {
 			$('#load').remove();
 			$('#waitingind').append("<img id=\"load\" src=\"images/loading.gif\" alt=\"Loading\" />");
 			$('#load').fadeIn('normal');
+			
 		}
 		
 		 /* Auto bajon*/

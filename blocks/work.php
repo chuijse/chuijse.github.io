@@ -17,6 +17,10 @@ table.work th{
 
 
 <article class="mid">
+
+
+	
+	<!--<div class="circle" ></div> -->
 	 
 	<br><br>
 	<table class="work">
