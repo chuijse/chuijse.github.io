@@ -16,23 +16,34 @@ $(document).ready(function() {
 		
 		if( !$(this).hasClass("selected") ){ /* Se ejecuta la accion si y solo si this NO tiene la clase selected*/
 			
-			var width = $(this).css("width");
-			var widthInt= 0.5*parseInt(width.replace("px",""));
+			//var width = $(this).css("width");
+			//alert(width);
+			//var widthInt= 0.5*parseInt(width.replace("px",""));
 			var posx = $(this).offset().left;
-			var posxInt= parseInt(posx);
-			var pos = posxInt + widthInt - 37.5;
-			$(".circle").offset({left: pos});
-			//$(".triangle").animate({left: pos},500);
-			
-			
-			var height = $(this).css("heigth");
-			var heightInt= 0.5*parseInt(height.replace("px",""));
 			var posy = $(this).offset().top;
+			var posxInt= parseInt(posx);
 			var posyInt= parseInt(posy);
-			var positiony = posyInt + (heightInt - 10) ;
-			$(".circle").offset({top: positiony});
+			//alert(posyInt);
+			//var pos = posxInt  ;
+			$(".circle").offset({left: posxInt -1, top: posyInt - 75 + 10 +1});
 			//$(".triangle").animate({left: pos},500);
-		
+			
+			function getPos(el) {
+				for(var lx=0, ly=0; 
+					el != null; 
+					lx += el.offsetLeft, ly += el.offsetTop, el = el.offsetParent);
+				return {x: lx, y: ly};
+			}
+			
+			//alert(getPos(this).y);
+			//$(".circle").offset({left: getPos(this).x});
+			//$(".circle").offset({top: getPos(this).y});
+			//$(".triangle").animate({left: pos},500);*/
+			
+			 //var testDiv = document.getElementById("kaki");
+			 
+			//kakiDiv.offsetLeft + kakiDiv.offsetTop;
+			//alert(testDiv.offsetTop);
 			
 			
 			$(this).toggleClass("selected"); /*Se le da la clase selected */

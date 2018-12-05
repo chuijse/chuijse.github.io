@@ -5,13 +5,16 @@
 <style>
 table.work {
 	
+	
 	margin: auto;
 	padding: 5px;
+	/*border: 1 solid green;*/
+	
 	
 }
 table.work th{
     padding: 5px;
-
+	/*border: 1 solid red;*/
 }
 </style>
 
@@ -23,13 +26,13 @@ table.work th{
 	
 	 
 	<br><br>
-	<div class="circle" ></div>
+	
 	<table class="work">
 		
 			<nav>
 				<ul>
 					<tr>
-					<th><li ><span class="clickableind" id="piel_urbana"><img src="images/work/nav/work1.png"></span></li></th> 
+					<th><li ><div id="kaki"><span class="clickableind" id="piel_urbana"><img src="images/work/nav/work1.png"></span></div></li></th> 
 				
 					<th><li ><span class="clickableind" id="nahual"><img src="images/work/nav/work2.png"></span></li></th>
 				
@@ -44,6 +47,7 @@ table.work th{
 			</nav>
 		
 	</table>
+	<div class="circle" ></div>
 	<br>
 	
 	<div class="hrrel"></div>
