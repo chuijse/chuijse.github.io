@@ -35,7 +35,7 @@ th{
 				  <tr >
 					<th id="first" ALIGN=right VALIGN=top width="50%">
 					
-						<h4 ALIGN=right>ME</h4>
+						<h4 ALIGN=right>DATOS</h4>
 						<p> 
 						<small>Nombre:</small><br> 
 						Cristian Javier Huijse Heise<br>

@@ -16,7 +16,13 @@ $(document).ready(function() {
 		
 		if( !$(this).hasClass("selected") ){ /* Se ejecuta la accion si y solo si this NO tiene la clase selected*/
 
-			
+			var width = $(this).css("width");
+			var widthInt= 0.5*parseInt(width.replace("px",""));
+			var posx = $(this).offset().left;
+			var posxInt= parseInt(posx);
+			var pos = posxInt + widthInt -37.5;
+			$(".circle").offset({left: pos});
+			//$(".triangle").animate({left: pos},500);
 			
 			
 			$(this).toggleClass("selected"); /*Se le da la clase selected */
