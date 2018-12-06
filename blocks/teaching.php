@@ -3,10 +3,23 @@
 
 
 <style>
+
+#nav2 {
+	position: absolute;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	top: 40px;
+}
+
+
 table.work {
 	
-	margin: auto;
-	padding: auto;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+	/*border: 1 solid green;*/
 	
 }
 table.work th{
@@ -18,8 +31,8 @@ table.work th{
 
 <article class="mid">
 	 
-	<br><br>
-	<div class="circle" ></div>
+	
+	<div id="nav2">
 	<table class="work">
 		
 			<nav>
@@ -36,7 +49,13 @@ table.work th{
 			</nav>
 		
 	</table>
-	<br>
+	</div>
+	
+	<div class="circle" ></div>
+	
+	<br><br><br>
+	
+	<div class="circle" ></div>
 	
 	<div class="hrrel"></div>
 	

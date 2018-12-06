@@ -35,7 +35,7 @@ $(document).ready(function() {
 					    var msg = "Lo lamento, hubo un error: ";
 					    $("#centercontentind").html(msg + xhr.status + " " + xhr.statusText);
 					} 
-											
+						
 	
 				}).delay(500).fadeIn('normal', function() {
 					$("#center").animate({scrollTop:270}, "slow");

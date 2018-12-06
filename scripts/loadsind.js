@@ -20,20 +20,18 @@ $(document).ready(function() {
 			//alert(width);
 			//var widthInt= 0.5*parseInt(width.replace("px",""));
 			var posx = $(this).offset().left;
-			var posy = $(this).offset().top;
 			var posxInt= parseInt(posx);
-			var posyInt= parseInt(posy);
 			//alert(posyInt);
 			//var pos = posxInt  ;
-			$(".circle").offset({left: posxInt -1, top: posyInt - 75 + 10 +2});
+			$(".circle").offset({left: posxInt});
 			//$(".triangle").animate({left: pos},500);
 			
-			function getPos(el) {
+			/*function getPos(el) {
 				for(var lx=0, ly=0; 
 					el != null; 
 					lx += el.offsetLeft, ly += el.offsetTop, el = el.offsetParent);
 				return {x: lx, y: ly};
-			}
+			}*/
 			
 			//alert(getPos(this).y);
 			//$(".circle").offset({left: getPos(this).x});
